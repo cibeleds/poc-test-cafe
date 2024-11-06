@@ -13,20 +13,31 @@ Uma breve descrição do que este projeto faz e qual problema ele resolve.
 
 ## Tecnologias Utilizadas
 
-- [Node.js](https://nodejs.org/)
-- [TestCafe](https://devexpress.github.io/testcafe/)
-- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- Node.js
+- TestCafe
+- JavaScript
 
 ## Instalação
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
+## Instalação
 
-## Aprendizado
+Clone o repositório:
 
-npx testcafe "chrome:emulation:device=iPhone 12 Pro" tests/teste.js //executa simulando um iphone 12
-npx testcafe -b //ve os browser disponiveis
-npx testcafe chrome tests/teste.js // exceuta a feature direta e com navegador que se quer
-npx testcafe chrome testcafe.config.js // isso não funcionou - era tipo arquivo de config
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+
+## Instalação
+Para executar os testes, você pode usar os seguintes comandos:
+
+Para executar simulando um iPhone 12:
+npx testcafe "chrome:emulation:device=iPhone 12 Pro" tests/teste.js
+
+
+Para ver os navegadores disponíveis:
+npx testcafe -b
+
+
+Para executar a feature diretamente em um navegador específico:
+npx testcafe chrome tests/teste.js
+
